@@ -1,0 +1,38 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "Implementations of algorithms in JavaScript",
+  "main": "README.md",
+  "scripts": {
+    "test": "mocha --require babel-polyfill --require babel-register",
+    "jsdoc": "jsdoc --configure ./jsdoc-conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwastek/js-algorithms.git"
+  },
+  "keywords": [
+    "bucket sort",
+    "counting sort",
+    "insertion sort",
+    "radix sort"
+  ],
+  "author": "Sebastian Chwastek",
+  "license": "MIT",
+  "homepage": "https://github.com/schwastek/js-algorithms",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "*",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jsdoc": "^3.5.5",
+    "mocha": "*"
+  },
+  "private": true
+}
