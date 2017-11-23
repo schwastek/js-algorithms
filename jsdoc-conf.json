@@ -7,7 +7,8 @@
         "./bucket-sort/bucketSort.js",
         "./counting-sort/countingSort.js",
         "./insertion-sort/insertionSort.js",
-        "./radix-sort/radixSort.js"
+        "./radix-sort/radixSort.js",
+        "./shell-sort/shellSort.js"
       ],
       "includePattern": ".+\\.js(doc|x)?$"
   },
