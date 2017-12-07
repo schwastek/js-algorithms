@@ -8,7 +8,9 @@
         "./counting-sort/countingSort.js",
         "./insertion-sort/insertionSort.js",
         "./radix-sort/radixSort.js",
-        "./shell-sort/shellSort.js"
+        "./shell-sort/shellSort.js",
+        "./bubble-sort/bubbleSort.js",
+        "./bubble-sort/bubbleSortAlternative.js"
       ],
       "includePattern": ".+\\.js(doc|x)?$"
   },

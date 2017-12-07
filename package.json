@@ -16,6 +16,7 @@
     "counting sort",
     "insertion sort",
     "radix sort"
+    "bubble sort"
   ],
   "author": "Sebastian Chwastek",
   "license": "MIT",
