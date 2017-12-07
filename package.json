@@ -15,7 +15,8 @@
     "bucket sort",
     "counting sort",
     "insertion sort",
-    "radix sort"
+    "radix sort",
+    "shell sort",
     "bubble sort"
   ],
   "author": "Sebastian Chwastek",
