@@ -6,6 +6,7 @@
         "./utilities.js",
         "./bucket-sort/bucketSort.js",
         "./counting-sort/countingSort.js",
+        "./fizz-buzz/fizzBuzz.js",
         "./insertion-sort/insertionSort.js",
         "./radix-sort/radixSort.js",
         "./shell-sort/shellSort.js",
