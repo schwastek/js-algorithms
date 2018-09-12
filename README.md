@@ -17,9 +17,6 @@ $ npm install
 # Run the tests
 $ npm test
 
-# Generate the documentation
-$ npm run jsdoc
-
 # Import any alogrithm
 import radixSort from '../radix-sort/radixSort';
 const array = [750, 5531, 80, 6274, 8712];
