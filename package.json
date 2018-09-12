@@ -4,7 +4,7 @@
   "description": "Implementations of algorithms in JavaScript",
   "main": "README.md",
   "scripts": {
-    "test": "mocha --require babel-polyfill --require babel-register"
+    "test": "mocha --require babel-register"
   },
   "repository": {
     "type": "git",
@@ -23,11 +23,10 @@
   "license": "MIT",
   "homepage": "https://github.com/schwastek/js-algorithms",
   "devDependencies": {
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "chai": "*",
-    "mocha": "^4.1.0"
+    "mocha": "^5.2.0"
   },
   "private": true
 }
