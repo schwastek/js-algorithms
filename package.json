@@ -10,6 +10,7 @@
     "url": "git+https://github.com/schwastek/js-algorithms.git"
   },
   "keywords": [
+    "binary search",
     "bubble sort",
     "bucket sort",
     "counting sort",
