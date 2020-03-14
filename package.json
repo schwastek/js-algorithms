@@ -24,11 +24,11 @@
   "license": "MIT",
   "homepage": "https://github.com/schwastek/js-algorithms",
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/register": "^7.6.2",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
     "chai": "*",
-    "mocha": "^6.2.2"
+    "mocha": "^7.1.0"
   },
   "private": true
 }
