@@ -1,29 +1,14 @@
-# JS algorithms
+# Overview
+Algorithm challenges implemented in JavaScript.
 
-Implementations of algorithms in JavaScript.
+## Motivation
+The best engineers are always growing. I wanted to:
 
-### How to use?
+* Learn and understand how algorithms work,
+* prepare for programming interviews,
+* improve my ability to reason effectively.
 
-```
-# Clone this repository
-$ git clone https://github.com/schwastek/js-algorithms.git
+# Usage
+Just copy and paste the code into your console.
 
-# Go into the repository
-$ cd js-algorithms
-
-# Install dependencies
-$ npm install
-
-# Run the tests
-$ npm test
-
-# Import any alogrithm
-import radixSort from '../radix-sort/radixSort';
-const array = [750, 5531, 80, 6274, 8712];
-radixSort(array);
-// [80, 750, 5531, 6274, 8712]
-console.log(array);
-```
-### License
-
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+![Run the code implementations in the console](run-code-in-console.png)

@@ -1,21 +1,28 @@
-/** @module */
+/**
+ * Sorts an array of integers using insertion sort.
+ *
+ * @param {number[]} array The array of integers
+ * @returns {number[]} Sorted array.
+ */
+function insertionSort(array) {
+  for (let i = 0; i < array.length; i += 1) {
+    for (let j = i; j > 0; j -= 1) {
+      if (array[j] < array[j - 1]) {
+        [array[j], array[j - 1]] = [array[j - 1], array[j]];
+      }
+    }
+  }
 
-import insertionSort from '../insertion-sort/insertionSort';
+  return array;
+}
 
 /**
  * Sorts an array of positive integers using bucket sort.
- * @static
- * @requires module:insertion-sort/insertionSort
- * @example
- * import bucketSort from '../bucket-sort/bucketSort';
- * const array = [8211, 9559, 1986, 7022, 2919];
- * bucketSort(array);
- * // [1986, 2919, 7022, 8211, 9559]
- * console.log(array);
+ *
  * @see {@link https://initjs.org/bucket-sort-in-javascript-dc040b8f0058 Implement Bucket Sort in JavaScript - Michael Mitrakos}
  * @see {@link http://www.javaprogrammingforums.com/algorithms-recursion/20280-how-know-size-number-buckets-bucket-sort.html How to know size and number of buckets in bucket sort?}
- * @param {Array} array The array of positive integers
- * @returns {Array} Sorted array.
+ * @param {number[]} array The array of positive integers
+ * @returns {number[]} Sorted array.
  */
 function bucketSort(array) {
   const bucketSize = 5;
@@ -57,4 +64,6 @@ function bucketSort(array) {
   return array;
 }
 
-export default bucketSort;
+// [1986, 2919, 7022, 8211, 9559]
+const result = bucketSort([8211, 9559, 1986, 7022, 2919]);
+console.log(result);

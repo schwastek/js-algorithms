@@ -1,16 +1,8 @@
-/** @module */
-
 /**
  * Sorts an array of positive integers using counting sort.
- * @static
- * @example
- * import countingSort from '../counting-sort/countingSort';
- * const array = [5282, 6097, 3765, 910, 5376];
- * countingSort(array);
- * // [910, 3765, 5282, 5376, 6097]
- * console.log(array);
- * @param {Array} array The array of positive integers
- * @returns {Array} Sorted array.
+ *
+ * @param {number[]} array The array of positive integers
+ * @returns {number[]} Sorted array.
  */
 function countingSort(array) {
   let i = 0;
@@ -36,4 +28,6 @@ function countingSort(array) {
   return array;
 }
 
-export default countingSort;
+// [910, 3765, 5282, 5376, 6097]
+const result = countingSort([5282, 6097, 3765, 910, 5376]);
+console.log(result);

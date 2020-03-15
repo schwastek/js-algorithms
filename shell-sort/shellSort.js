@@ -1,16 +1,8 @@
-/** @module */
-
 /**
  * Sorts an array of integers using shell sort.
- * @static
- * @example
- * import shellSort from '../shell-sort/shellSort';
- * const array = [55, -56, 85, 96, -16];
- * shellSort(array);
- * // [-56, -16, 55, 85, 96]
- * console.log(array);
- * @param {Array} array The array of integers
- * @returns {Array} Sorted array.
+ *
+ * @param {number[]} array The array of integers
+ * @returns {number[]} Sorted array.
  */
 function shellSort(array) {
   let gap = Math.floor(array.length / 2);
@@ -35,4 +27,6 @@ function shellSort(array) {
   return array;
 }
 
-export default shellSort;
+// [-56, -16, 55, 85, 96]
+const result = shellSort([55, -56, 85, 96, -16]);
+console.log(result);

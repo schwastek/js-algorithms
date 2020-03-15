@@ -1,16 +1,8 @@
-/** @module */
-
 /**
  * Sorts an array of integers using bubble sort.
- * @static
- * @example
- * import bubbleSort from '../bubble-sort/bubbleSort';
- * const array = [-63, -73, 66, -84, -8];
- * bubbleSort(array);
- * // [-84, -73, -63, -8, 66]
- * console.log(array);
- * @param {Array} array The array of integers
- * @returns {Array} Sorted array.
+ *
+ * @param {number[]} array The array of integers
+ * @returns {number[]} Sorted array.
  */
 function bubbleSort(array) {
   for (let i = 0; i < array.length - 1; i += 1) {
@@ -31,4 +23,6 @@ function bubbleSort(array) {
   return array;
 }
 
-export default bubbleSort;
+// [-84, -73, -63, -8, 66]
+const result = bubbleSort([-63, -73, 66, -84, -8]);
+console.log(result);

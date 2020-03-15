@@ -1,16 +1,8 @@
-/** @module */
-
 /**
  * Sorts an array of positive integers using LSD radix sort.
- * @static
- * @example
- * import radixSort from '../radix-sort/radixSort';
- * const array = [750, 5531, 80, 6274, 8712];
- * radixSort(array);
- * // [80, 750, 5531, 6274, 8712]
- * console.log(array);
- * @param {Array} arr The array of positive integers
- * @returns {Array} Sorted array.
+ *
+ * @param {number[]} arr The array of positive integers
+ * @returns {number[]} Sorted array.
  */
 function radixSort(arr) {
   function countingSort(array, significantDigit) {
@@ -67,4 +59,6 @@ function radixSort(arr) {
   return arr;
 }
 
-export default radixSort;
+// [80, 750, 5531, 6274, 8712]
+const result = radixSort([750, 5531, 80, 6274, 8712]);
+console.log(result);
